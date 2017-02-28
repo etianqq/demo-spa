@@ -1,0 +1,181 @@
+/*分页*/
+.tops_page1 {
+  width: auto;
+  margin: 15px 20px 15px 0;
+  height: 30px;
+  overflow: hidden;
+  li {
+    float: left;
+    color: #555;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    font-family: "微软雅黑", arial, \5b8b\4f53;
+    font-size: 14px;
+    min-width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    border-radius: 3px;
+
+    &.page_ic {
+      width: 120px;
+      color: #666666;
+      border: 0 none;
+      &:hover {
+        color: #666666;
+      }
+      input {
+        width: 44px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #e6e6e6;
+        text-align: center;
+        border-radius: 3px;
+      }
+    }
+    &.page_last {
+      cursor: pointer;
+      border-color: #008ee6;
+      background: #008ee6;
+      color: #fff;
+      width: 40px;
+    }
+
+    &.page_hover:hover {
+      color: #fff;
+      background: #008ee6;
+      color: #fff;
+      border: 1px solid #008ee6;
+    }
+
+    &.page_hover {
+      cursor: pointer;
+    }
+
+    &.page_on {
+      background: #008ee6;
+      color: #fff;
+      border: 1px solid #008ee6;
+      cursor: default;
+    }
+
+    &:hover a {
+      color: #fff;
+    }
+
+    select {
+      font-size: 14px;
+      line-height: 29px;
+      height: 29px;
+    }
+    &.page_left {
+      @include bg_image("page_left.png", "no-repeat center center");
+      cursor: pointer;
+    }
+
+    &.page_left:hover {
+      @include bg_image("page_left_02.png", "no-repeat center center #008ee6");
+      @include border_solid(#008ee6);
+    }
+
+    &.page_right {
+      @include bg_image("page_right.png", "no-repeat center center");
+      cursor: pointer;
+    }
+
+    &.page_right:hover {
+      @include bg_image("page_right_02.png", "no-repeat center center #008ee6");
+      @include border_solid(#008ee6);
+    }
+
+    &.txtPageGoLi {
+      width: 85px;
+      input {
+        display: inline-block;
+      }
+    }
+
+    &.page_apostrophe {
+      background: #e6e6e6;
+    }
+  }
+
+  .page_num {
+    float: left;
+    margin: 15px 0 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666666;
+    select {
+      border: 1px solid #e6e6e6;
+      border-radius: 3px;
+    }
+  }
+}
+
+.tops_page2 {
+  a {
+    float: left;
+    padding: 0 10px 0 20px;
+    height: 30px;
+    border: 1px solid #e3e4e6;
+    font-size: 12px;
+    display: block;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: auto;
+    position: relative;
+
+    &:first-child {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    &:last-child {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    &.page_left {
+      @include bg_image("page_left.png", "no-repeat center center");
+      cursor: pointer;
+    }
+
+    &.page_left:hover {
+      @include bg_image("page_left_02.png", "no-repeat center center #008ee6");
+      @include border_solid(#008ee6);
+    }
+
+    &.page_right {
+      @include bg_image("page_right.png", "no-repeat center center");
+      cursor: pointer;
+    }
+
+    &.page_right:hover {
+      @include bg_image("page_right_02.png", "no-repeat center center #008ee6");
+      @include border_solid(#008ee6);
+    }
+  }
+
+  .num {
+    float: left;
+    width: auto;
+    line-height: 30px;
+    padding: 0 5px;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    line-height: 30px;
+  }
+
+  .nu {
+    float: left;
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+  }
+}
+
+
+

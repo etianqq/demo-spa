@@ -1,0 +1,9 @@
+# !!!very important
+
+node_modules/
+dist/
+npm-debug.log
+.idea/
+src/css/app.css
+src/css/src/*
+src/js_online/*

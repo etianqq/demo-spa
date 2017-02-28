@@ -1,0 +1,63 @@
+@mixin animate_rotate($angle1,$angle2,$angle3) {
+  0% {
+    -webkit-transform: rotate($angle1);
+  }
+  50% {
+    -webkit-transform: rotate($angle2);
+  }
+  100% {
+    -webkit-transform: rotate($angle3);
+  }
+}
+
+@mixin box_shadow($config) {
+  -webkit-box-shadow: #{$config};
+  -moz-box-shadow: #{$config};
+  -o-box-shadow: #{$config};
+  box-shadow: #{$config};
+}
+
+@mixin border_radius($val) {
+  -moz-border-radius: #{$val};
+  -webkit-border-radius: #{$val};
+  -o-border-radius: #{$val};
+  border-radius: #{$val};
+}
+
+@mixin gradient_left_right($left, $right) {
+  background-image: -moz-linear-gradient(left, $left, $right);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, $left), color-stop(1, $right));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$left', endColorstr='$right', GradientType='1');
+  background-image: -ms-linear-gradient(left, $left, $right);
+}
+
+@mixin border_solid($color) {
+  border: 1px solid #{$color};
+}
+
+/*---------------------- images ----------------------*/
+@mixin bgImage($baseUrl) {
+  background-image: url("/images/" + $baseUrl);
+}
+
+@mixin bg_image($baseUrl, $config:"") {
+  background: url("/images/" + $baseUrl) #{$config};
+}
+
+@mixin bg_image_noRepeat($baseUrl) {
+  @include bg_image($baseUrl, "no-repeat");
+}
+
+@mixin clearfix{
+    zoom: 1;
+}
+
+@mixin btn-hover{
+  background-color: #008ee5;
+  border: 1px solid rgb(0, 116, 217);
+};
+
+@mixin bton($type){
+  width: auto;
+  float: $type;
+}

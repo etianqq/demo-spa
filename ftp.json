@@ -1,0 +1,24 @@
+{
+  "ftp_beta": {
+    "host": "",
+    "user": "",
+    "pass": "",
+    "port": "",
+    "remotePath": ""
+  },
+  "ftp_test": {
+    "host": "",
+    "user": "",
+    "pass": "",
+    "port": "",
+    "remotePath": ""
+  },
+  "ftp_release": {
+    "host": "",
+    "user": "",
+    "pass": "",
+    "port": "",
+    "remotePath": ""
+  }
+}
+
