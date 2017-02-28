@@ -7,12 +7,13 @@
 
   .topBar {
     height: 55px;
-    background-color: #008ee6;
+    background-color: #a4d0ec;
 
     .logo {
       width: 200px;
       @include bg_image('logo.png', 'no-repeat center center');
-      background-color: #0079c2;
+      background-size: 50px;
+      background-color: #95bdd7;
       height: 100%;
       float: left;
       cursor: pointer;

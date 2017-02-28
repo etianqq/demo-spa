@@ -18,33 +18,6 @@ var config_route = [
         }
     },
     {
-        url: "#backlogAudit",
-        template: "template/backlogAudit.html",
-        resolve: function ($scope, isComplete) {
-            isComplete(function () {
-                 $.getScript("js_online/backlogAudit.js");
-            });
-        }
-    },
-    {
-        url: "#brokerCompany",
-        template: "template/brokerCompany.html",
-        resolve: function ($scope, isComplete) {
-            isComplete(function () {
-                 $.getScript("js_online/brokerCompany.js");
-            });
-        }
-    },
-    {
-        url: "#merchantManager",
-        template: "template/merchantManager.html",
-        resolve: function ($scope, isComplete) {
-            isComplete(function () {
-                 $.getScript("js_online/merchantManager.js");
-            });
-        }
-    },
-    {
         url: "#operationLog",
         template: "template/operationLog.html",
         resolve: function ($scope, isComplete) {

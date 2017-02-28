@@ -37,9 +37,6 @@ module.exports = [
     {
         entry: {
             accountManager: './src/js_template/accountManager/accountManager.js',
-            backlogAudit: './src/js_template/backlogAudit/backlogAudit.js',
-            brokerCompany: './src/js_template/brokerCompany/brokerCompany.js',
-            merchantManager: './src/js_template/merchantManager/merchantManager.js',
             operationLog: './src/js_template/operationLog/operationLog.js',
             orderManager: './src/js_template/orderManager/orderManager.js',
             productManager: './src/js_template/productManager/productManager.js',

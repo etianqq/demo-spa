@@ -1,0 +1,418 @@
+/*btns*/
+.btn_refresh {
+  /*刷新*/
+  @include bg_image("btn_all.png", "0px 2px no-repeat");
+}
+
+.btn_transfer {
+  /*分配*/
+  @include bg_image("btn_all.png", "0px -28px no-repeat");
+}
+
+.btn_follow {
+  /*跟进*/
+  @include bg_image("btn_all.png", "0px -60px no-repeat");
+}
+
+.btn_invalid {
+  /*无效*/
+  @include bg_image("btn_all.png", "0px -88px no-repeat");
+}
+
+.btn_public {
+  /*公共*/
+  @include bg_image("btn_all.png", "0px -118px no-repeat");
+}
+
+.btn_customer {
+  /*客户认领*/
+  @include bg_image("btn_all_2.png", "0px -538px no-repeat");
+}
+
+.btn_craise {
+  /*认购*/
+  @include bg_image("btn_all.png", "0px -150px no-repeat");
+}
+
+.btn_subscribe {
+  /*认筹*/
+  @include bg_image("btn_all.png", "0px -178px no-repeat");
+}
+
+.btn_deal {
+  /*成交*/
+  @include bg_image("btn_all.png", "0px -208px no-repeat");
+}
+
+.btn_export {
+  /*导出*/
+  @include bg_image("btn_all.png", "0px -238px no-repeat");
+}
+
+.btn_add {
+  /*添加*/
+  @include bg_image("btn_all.png", "0px -267px no-repeat");
+}
+
+.btn_add_1 {
+  /*添加*/
+  @include bg_image("btn_all.png", "0px -268px no-repeat");
+}
+
+
+.btn_select {
+  /*筛选*/
+  @include bg_image("btn_all.png", "0px -298px no-repeat");
+}
+
+.btn_left {
+  /*上页*/
+  @include bg_image("btn_all.png", "0px -330px no-repeat");
+}
+
+.btn_right {
+  /*下页*/
+  @include bg_image("btn_all.png", "0px -360px no-repeat");
+}
+
+.btn_delete {
+  /*删除*/
+  @include bg_image("btn_all.png", "0px -387px no-repeat");
+}
+
+.btn_sitness {
+  /*带看奖发放*/
+  @include bg_image("btn_all.png", "0px -420px no-repeat");
+}
+
+.btn_lease {
+  /*租赁*/
+  @include bg_image("btn_all.png", "0px -480px no-repeat");
+}
+
+.btn_back {
+  /*退筹*/
+  @include bg_image("btn_all.png", "0px -510px no-repeat");
+}
+.btn_change {
+  /*变更*/
+  @include bg_image("btn_all.png", "0px -479px no-repeat");
+}
+.btn_back_new{
+  /*退筹*/
+  @include bg_image("btn_all.png", "0px -720px no-repeat");
+}
+.btn_set {
+  @include bg_image("btn_show.png", "0px 0px no-repeat");
+}
+
+/*设置*/
+.btn_revise {
+  @include bg_image("btn_show.png", "0px -60px no-repeat");
+}
+
+/*修改*/
+.btn_login {
+  @include bg_image("btn_show.png", "0px -120px no-repeat");
+}
+
+/*登录*/
+
+/*悬浮按钮*/
+.btn_refresh:hover {
+  @include bg_image("btn_all.png", "-80px 2px no-repeat");
+  @include btn-hover;
+
+}
+
+/*刷新*/
+
+.btn_transfer:hover {
+  @include bg_image("btn_all.png", "-80px -28px no-repeat");
+  @include btn-hover;
+}
+
+/*转移*/
+
+.btn_follow:hover {
+  @include bg_image("btn_all.png", "-80px -60px no-repeat");
+  @include btn-hover;
+}
+
+/*跟进*/
+
+.btn_invalid:hover {
+  @include bg_image("btn_all.png", "-80px -88px no-repeat");
+  @include btn-hover;
+}
+.btn_change:hover{
+  /*变更*/
+  @include bg_image("btn_all.png", "-74px -479px no-repeat");
+  @include btn-hover;
+}
+/*无效*/
+
+.btn_public:hover {
+  @include bg_image("btn_all.png", "-80px -118px no-repeat");
+  @include btn-hover;
+}
+
+/*公共*/
+
+.btn_customer:hover {
+  @include bg_image("btn_all_2.png", "-80px -538px no-repeat");
+  @include btn-hover;
+}
+
+/*客户认领*/
+
+.btn_craise:hover {
+  @include bg_image("btn_all.png", "-80px -150px no-repeat");
+  @include btn-hover;
+}
+
+/*认购*/
+
+.btn_subscribe:hover {
+  @include bg_image("btn_all.png", "-80px -178px no-repeat");
+  @include btn-hover;
+}
+
+/*认筹*/
+
+.btn_deal:hover {
+  @include bg_image("btn_all.png", "-80px -208px no-repeat");
+  @include btn-hover;
+}
+
+/*成交*/
+
+.btn_export:hover {
+  @include bg_image("btn_all.png", "-80px -238px no-repeat");
+  @include btn-hover;
+}
+
+/*导出*/
+
+.btn_add:hover {
+  @include bg_image("btn_all.png", "-80px -267px no-repeat");
+  @include btn-hover;
+}
+
+/*导出*/
+
+.btn_add_1:hover {
+  @include bg_image("btn_all.png", "-80px -268px no-repeat");
+  @include btn-hover;
+}
+
+/*添加*/
+
+.btn_select:hover {
+  @include bg_image("btn_all.png", "-80px -298px no-repeat");
+  @include btn-hover;
+}
+
+/*筛选*/
+
+.btn_left:hover {
+  @include bg_image("btn_all.png", "-80px -330px no-repeat");
+  @include btn-hover;
+}
+
+/*上页*/
+
+.btn_right:hover {
+  @include bg_image("btn_all.png", "-80px -360px no-repeat");
+  @include btn-hover;
+}
+
+/*下页*/
+
+.btn_delete:hover {
+  @include bg_image("btn_all.png", "-80px -387px no-repeat");
+  @include btn-hover;
+}
+
+/*删除*/
+
+.btn_sitness:hover {
+  @include bg_image("btn_all.png", "-80px -420px no-repeat");
+  @include btn-hover;
+}
+
+/*带看奖发放*/
+
+.btn_lease:hover {
+  @include bg_image("btn_all.png", "-80px -480px no-repeat");
+  @include btn-hover;
+}
+
+/*租赁*/
+
+.btn_back:hover {
+  @include bg_image("btn_all.png", "-80px -510px no-repeat");
+  @include btn-hover;
+}
+
+/*退筹*/
+
+.btn_set:hover {
+  @include bg_image("btn_show.png", "0px -30px no-repeat");
+  color: #008ee6;
+}
+
+/*设置*/
+
+.btn_revise:hover {
+  @include bg_image("btn_show.png", "0px -90px no-repeat");
+  color: #74d037;
+}
+
+/*修改*/
+
+.btn_login:hover {
+  @include bg_image("btn_show.png", "0px -150px no-repeat");
+  color: #fbab00;
+}
+.btn_back_new:hover{
+  /*退筹*/
+  @include bg_image("btn_all.png", "-75px -720px no-repeat");
+  @include btn-hover;
+}
+
+/*登录*/
+
+/*禁用按钮*/
+.btn_disabled, .btn_disabled:hover {
+  background-color: #f6f6f6 !important;
+  color: #999999 !important;
+  cursor: not-allowed;
+}
+.btn_change.btn_disabled:hover {
+  /*变更*/
+  @include bg_image("btn_all.png", "0px -479px no-repeat");
+}
+.btn_refresh.btn_disabled:hover {
+  /*刷新*/
+  @include bg_image("btn_all.png", "0px 2px no-repeat");
+}
+
+.btn_transfer.btn_disabled:hover {
+  /*分配*/
+  @include bg_image("btn_all.png", "0px -28px no-repeat");
+}
+
+.btn_follow.btn_disabled:hover {
+  /*跟进*/
+  @include bg_image("btn_all.png", "0px -60px no-repeat");
+}
+
+.btn_invalid.btn_disabled:hover {
+  /*无效*/
+  @include bg_image("btn_all.png", "0px -88px no-repeat");
+}
+
+.btn_public.btn_disabled:hover {
+  /*公共*/
+  @include bg_image("btn_all.png", "0px -118px no-repeat");
+}
+
+.btn_customer.btn_disabled:hover {
+  /*客户认领*/
+  @include bg_image("btn_all_2.png", "0px -538px no-repeat");
+}
+
+.btn_craise.btn_disabled:hover {
+  /*认购*/
+  @include bg_image("btn_all.png", "0px -150px no-repeat");
+}
+
+.btn_subscribe.btn_disabled:hover {
+  /*认筹*/
+  @include bg_image("btn_all.png", "0px -178px no-repeat");
+}
+
+.btn_deal.btn_disabled:hover {
+  /*成交*/
+  @include bg_image("btn_all.png", "0px -208px no-repeat");
+}
+
+.btn_export.btn_disabled:hover {
+  /*导出*/
+  @include bg_image("btn_all.png", "0px -238px no-repeat");
+}
+
+.btn_add.btn_disabled:hover {
+  /*添加*/
+  @include bg_image("btn_all.png", "0px -267px no-repeat");
+}
+
+.btn_add_1.btn_disabled:hover {
+  /*添加*/
+  @include bg_image("btn_all.png", "0px -268px no-repeat");
+}
+
+.btn_select.btn_disabled:hover {
+  /*筛选*/
+  @include bg_image("btn_all.png", "0px -298px no-repeat");
+}
+
+.btn_left.btn_disabled:hover {
+  /*上页*/
+  @include bg_image("btn_all.png", "0px -330px no-repeat");
+}
+
+.btn_right.btn_disabled:hover {
+  /*下页*/
+  @include bg_image("btn_all.png", "0px -360px no-repeat");
+}
+
+.btn_delete.btn_disabled:hover {
+  /*删除*/
+  @include bg_image("btn_all.png", "0px -387px no-repeat");
+}
+.btn_back_new.btn_disabled:hover{
+  /*退筹*/
+  @include bg_image("btn_all.png", "0px -720px no-repeat");
+}
+.btn_sitness.btn_disabled:hover {
+  /*带看奖发放*/
+  @include bg_image("btn_all.png", "0px -420px no-repeat");
+}
+
+.btn_lease.btn_disabled:hover {
+  /*租赁*/
+  @include bg_image("btn_all.png", "0px -480px no-repeat");
+}
+
+.btn_back.btn_disabled:hover {
+  /*退筹*/
+  @include bg_image("btn_all.png", "0px -510px no-repeat");
+}
+.btn_set.btn_disabled:hover {
+  @include bg_image("btn_show.png", "0px 0px no-repeat");
+}
+
+/*设置*/
+.btn_revise.btn_disabled:hover {
+  @include bg_image("btn_show.png", "0px -60px no-repeat");
+}
+
+/*修改*/
+.btn_login.btn_disabled:hover {
+  @include bg_image("btn_show.png", "0px -120px no-repeat");
+}
+
+.control-off{
+  @include bg_image("control-off.png", "85% 50% no-repeat;");
+}
+
+.control-on{
+  @include bg_image("control-on.png", "85% 50% no-repeat;");
+  color: #008ee5;
+}
+
+.inptime {
+    @include bg_image("from_time.png", "right no-repeat");
+}
